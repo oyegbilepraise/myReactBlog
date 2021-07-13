@@ -14,9 +14,9 @@ const Homepage = () => {
     return (
         <div className='text-center' style={{ display: isSignedIn ? 'none' : '', marginTop: '170px' }}>
             {!isSignedIn ? <div>
-                <h2><i class="fa fa-book" aria-hidden="true"></i></h2>
+                <h2><i className="fa fa-book" aria-hidden="true"></i></h2>
                 <h1 style={{ textDecoration: 'underline'}}>A Readers <br /> favourite place!</h1>
-                <h6 className='text-center' style={{paddingLeft:'170px', fontSize: '10px', paddingRight: "170px"}}>
+                <h6 className='text-center container' style={{fontSize: '10px',}}>
                     We provide high quality online resources for blogs, just sign in and start reading some wuality blogs
                 </h6>
                 <GoogleLogin

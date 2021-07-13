@@ -26,7 +26,7 @@ const Blog = () => {
             {loading ? <h1>Loading...</h1> : ''}
             <div className='row'>
                     {blogs?.articles?.map(blog => (
-                <div className='col-4'>
+                <div className='col-12 col-md-6 col-lg-4'>
                     <div className='card shadow mt-4' style={{minHeight: '500px'}}>
                     <a className="" target ='_blank' href={blog.url}>
                         <img src = {blog.image} className='card-img'/>
@@ -43,7 +43,7 @@ const Blog = () => {
                 </div>
                 ))}
                 {blogs?.totalArticles == 0 && (
-                    <h1 className=''> No blogs Available  ... Search Something else and retry later </h1>
+                    <h1 className=''> No blogs Available  ... Search Somethingx  else and retry later </h1>
                 )}
             </div>
         </div>

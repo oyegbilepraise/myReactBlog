@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .searchInput{
+        width: 80px !important;
+    }
+    .logout{
+        margin-left: -60px !important;
+        margin-right: 5px !important;
+    }
+}
